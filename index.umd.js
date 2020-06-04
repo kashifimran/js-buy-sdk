@@ -2502,6 +2502,7 @@ function query(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -2635,6 +2636,7 @@ function query$1(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -2771,6 +2773,7 @@ function query$2(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -2916,6 +2919,7 @@ function query$3(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -3232,6 +3236,7 @@ function query$5(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -3450,6 +3455,7 @@ function query$7(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -3611,6 +3617,7 @@ function query$8(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -9389,6 +9396,7 @@ var Product = {
     "options": "ProductOption",
     "productType": "String",
     "publishedAt": "DateTime",
+    "tags": "String",
     "title": "String",
     "updatedAt": "DateTime",
     "variants": "ProductVariantConnection",
